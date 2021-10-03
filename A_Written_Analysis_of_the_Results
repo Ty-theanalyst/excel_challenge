@@ -1,0 +1,43 @@
+# Visualization of Kickstaters in Excel
+
+## Overview of Project
+Utiliziing Excel to illustrate the trends of different Kickstarter Campaigns
+
+### Purpose
+Give Louise an opportunity to examine the data as it relates to how each campaign varied based on, launch date, goal, pledges, and category. 
+
+## Analysis and Challenges
+In the process of providing Louise with a project that will help her read her data, I used a great amount of various coding functions which assisted 
+me in showcasing my found informartion into charts and tables. For instance, I ustilized pitvot tables to show Louise the outcomes of the category theater
+with a stacked column chart. The chart compared the successful, failed, canceled, and live outcomes of the theater parent category. I also used the =VLOOKUP()
+function to display the necessary information need by Louise, of a categoriezed selection of her favorite plays. The function was used to pull the synopsis of
+the play. The function was used again to pull the goal amounts and pledged amounts of each play.
+
+### Analysis of Outcomes Based on Launch Date
+When looking at the outcomes of theater based on its launch date you can inference couple facts. Between the end of April and month of May, the rate at
+which the outcome was successful increases. Simultaniously, the rate at which the increase of failed theater campaigns all elavates but not as steadily. It can
+also be concluded from the outcomes by launch date that during the month of october no theater categorized campaigns were canceled.
+
+### Analysis of Outcomes Based on Goals
+As Louise looks at the analysis of Outcomes Based on Goals, she will see that when the goal of a campaign is below $4999 its probabilty of being succesful 
+is greater. For example, 76 percent of campaigns with goals under $1000 were successful while only 24 percent failed.
+
+### Challenges and Difficulties Encountered
+I faced a challenge when computing the number of successful, failed, and cancel campaigns. When using the =COUNTIFS() function my criteria was incomplete.
+I had forgotten to include whether the goal I was in search for was successful or not, and also that it's category was "play" in the function window. Omitting 
+these valuable facts calculated the wrong dataset thus my numbers being incorrect when creating the table and chart for the Outcomes Based on Goals Sheet.
+
+## Results
+- In the month of January, the rate at which each parent category was successful increased while the rate at which parent category failed decreased. However, 
+that changes as time will acrue. In the month of April through the first half of June, there are increasing numbers of failed campiagns. On the other hand, from
+the month of May through September, the number of successful events decreases at a consistent rate. Lastly, in the month of December the rate of successful and 
+failed campaigns become equivalent.
+
+-As the goals increase the relationship between the successful and failed campaigns is negative. As one increases the other decreases and visa versa. There are
+three points of equilibrium as it relates the percentage of successful and failed campaigns: goals $15000 to $19000, between goals $30000 to $35000, and between
+goals $40000 to $45000.
+
+-Unfortunately, the outcome of any future campaigns can not be correctly predicted by campaigns of the past. Each statistic calculated will vary based on the 
+audience attending, the location of the event, and much more.
+
+-We could also create a table on how the total of which was donated to a spicific campaign correlates to its successful or failed outcome.
